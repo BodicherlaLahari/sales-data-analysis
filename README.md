@@ -103,3 +103,14 @@ basic_project/
 
 ```bash
 pip install pandas
+
+
+## Additional Analytics Case Study
+
+### Retail Refund Analysis (SQL Server)
+A reusable T-SQL case study that flags delayed refunds, payment-mode mismatches, refunds outside store hours, and missing return confirmation. Includes an exception review query, employee-level summary, and data-quality checks.
+
+- [Case study documentation](retail-refund-analysis/README.md)
+- [SQL analysis queries](retail-refund-analysis/sql/analysis.sql)
+
+Note: this case study provides reusable queries and a required source-table schema. It does not include confidential transaction data or claim that flagged records prove fraud.
